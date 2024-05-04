@@ -17,9 +17,9 @@
 
 3. Rewrite the resulting CNOT+S+T circuit as a phase gadget + CNOT circuit. You can achieve this using the ComposePhasePolyBoxes pass. Find out how to extract the phase polynomial and the CNOT circuit from it, and then replace them with a diagonal gate and a ToffoliBox, to obtain your final normal form. You may find the following links useful:
 
-https://tket.quantinuum.com/user-manual/manual_circuit.html#phase-polynomials
-https://tket.quantinuum.com/api-docs/circuit.html#pytket.circuit.PhasePolyBox
-https://tket.quantinuum.com/api-docs/passes.html#pytket.passes.ComposePhasePolyBoxes
+- [Phase Polynomial overview](https://tket.quantinuum.com/user-manual/manual_circuit.html#phase-polynomials)
+- [PhasePolybox docs](https://tket.quantinuum.com/api-docs/circuit.html#pytket.circuit.PhasePolyBox)
+- [ComposePhasePolyBoxes docs](https://tket.quantinuum.com/api-docs/passes.html#pytket.passes.ComposePhasePolyBoxes)
 
 ## NOTE ON COMMUTATION OF PAULIs
 
